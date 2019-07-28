@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Wheel</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<div class="header">
+			<h1>
+				<span>C</span>
+				<span>o</span>
+				<span>l</span>
+				<span>o</span>
+				<span>r</span>
+				&nbsp;
+				<span>W</span>
+				<span>h</span>
+				<span>e</span>
+				<span>e</span>
+				<span>l</span>
+			</h1>
+		</div>
+	</header>
+
+	<div class="selectDiv">
+		<label class="select">Select a color:</label>
+	</div>
+
+	<div class="nav">
+		<nav>
+			<button id="red" onmousemove="red()" onclick="red()" onmouseout="normal()"></button><!--  
+			--><button id="orange" onmousemove="orange()" onclick="orange()" onmouseout="normal()"></button><!--
+			--><button id="yellow" onmousemove="yellow()" onclick="yellow()" onmouseout="normal()"></button><!--
+			--><button id="green" onmousemove="green()" onclick="green()" onmouseout="normal()"></button><!--
+			--><button id="blue" onmousemove="blue()" onclick="blue()" onmouseout="normal()"></button><!--
+			--><button id="indigo" onmousemove="indigo()" onclick="indigo()" onmouseout="normal()"></button><!--
+			--><button id="purple" onmousemove="purple()" onclick="purple()" onmouseout="normal()"></button><!--
+			--><button id="white" onmousemove="white()" onclick="white()" onmouseout="normal()"></button>
+		</nav>
+	</div>
+
+	<section>
+		<div id="color"></div>
+	</section>
+
+	<script type="text/javascript">
+		function normal(){
+			document.body.style.backgroundColor = "black";
+		}
+		function red(){
+			document.body.style.backgroundColor = "red";
+		}
+		function orange(){
+			document.body.style.backgroundColor = "orange";
+		}
+		function yellow(){
+			document.body.style.backgroundColor = "yellow";
+		}
+		function green(){
+			document.body.style.backgroundColor = "green";
+		}
+		function blue(){
+			document.body.style.backgroundColor = "blue";
+		}
+		function indigo(){
+			document.body.style.backgroundColor = "indigo";
+		}
+		function purple(){
+			document.body.style.backgroundColor = "purple";
+		}
+		function white(){
+			document.body.style.backgroundColor = "white";
+		}
+		function black(){
+			document.body.style.backgroundColor = "black";
+		}
+
+		normal();
+	</script>
+</body>
+</html>
